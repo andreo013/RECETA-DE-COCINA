@@ -1,0 +1,72 @@
+body {
+    background-image: url("../imagenes/fondo.jpg"); /* Imagen de fondo */
+    background-repeat: repeat;
+    margin: 0; /* Eliminar el margen predeterminado */
+    padding: 0; /* Eliminar el relleno predeterminado */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    text-align: center; /* Centrar contenido */
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 1); /* Color de fondo del contenedor */
+    padding: 20px; /* Espaciado interior del contenedor */
+    margin: 30px;
+    display: inline-block;
+    text-align: left; /* Alinear contenido del contenedor a la izquierda */
+    box-shadow: 5px 10px 10px #747B86; 
+}
+
+.header {
+    background-color: #b7cdee; /* Color de fondo del encabezado */
+    padding: 10px; /* Espaciado interior del encabezado */
+    text-align: center; /* Centrar texto dentro del encabezado */
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+#titulo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+    color:#3C3642;
+}
+
+#Enlace{
+    font-size: 12px;
+    color: dimgrey;
+}
+.header h5 {
+    margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.texto {
+    width: 50%; /* Ancho del texto de la receta */
+    padding-right: 20px; /* Espaciado a la derecha */
+}
+
+.texto h4 {
+    font-size: 16px;
+}
+.imagen {
+    width: 50%; /* Ancho de la imagen de la receta */
+
+}
+
+.imagen img {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática */
+    border-radius: 10%;
+    box-shadow: 0px 3px 8px #747B86;
+}
+
+footer {
+    text-align: center; /* Centrar contenido del footer */
+    margin-top: 20px;
+    font-size: 10px;
+}
